@@ -21,7 +21,7 @@ function createSection(id, innerHTML) {
 // About Section
 const aboutSection = createSection("about", `
   <h2>About Me</h2>
-  <p>Hello! I'm <strong>Danail Raj</strong>, a passionate and creative full-stack developer with a strong interest in innovative technologies like AI, machine learning, and IoT.</p>
+  <p>Hello! I'm <strong>Pranapkanth</strong>, a passionate and creative full-stack developer with a strong interest in innovative technologies like AI, machine learning, and IoT.</p>
   <p>I love solving real-world problems through clean code and user-friendly design. My current focus is on building smart, responsive web applications and exploring the potential of Wi-Fi-based sensing systems.</p>
   <p>When I'm not coding, I enjoy reading about emerging tech, participating in hackathons, and mentoring fellow developers.</p>
   <ul>
@@ -152,3 +152,4 @@ document.addEventListener("click", (e) => {
 closeBtn.addEventListener("click", () => {
   overlay.classList.remove("show");
 });
+
